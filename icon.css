@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    float: left;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    transition: 1s;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 6%;
+}
+
+.text::before {
+    content: '';
+    width: 12%;
+    position: absolute;
+    top: 100%;
+    border-bottom: 3px solid tomato;
+    left: 38%;
+}
+
+.text::after {
+    content: '';
+    width: 12%;
+    position: absolute;
+    top: 100%;
+    border-bottom: 3px dotted tomato;
+    right: 38%;
+}
+
+
+/* ----------------------------Box1------------------------- */
+
+.box1 {
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 0px 20px black;
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.box1::before {
+    content: '';
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    background-color: rgba(20, 10, 8, 0.548);
+    z-index: 1;
+    top: -30px;
+    transition: 0.8s;
+}
+
+.box1:hover::before {
+    content: '';
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0%;
+    transition: 0.8s;
+}
+
+.box1::after {
+    content: '';
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    background-color: rgba(20, 10, 8, 0.548);
+    z-index: 1;
+    bottom: -30px;
+    transition: 0.8s;
+}
+
+.box1:hover::after {
+    content: '';
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0%;
+    transition: 0.8s;
+}
+
+.box1:hover img {
+    width: 105%;
+    height: 310px;
+    transition: 1s;
+}
+
+
+/* ----------------------------Box2------------------------- */
+
+.box2 {
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 0px 20px black;
+    float: left;
+    margin-right: 5%;
+}
+
+.box2::before {
+    content: '';
+    width: 15%;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(121, 44, 32, 0.753);
+    bottom: -100%;
+    z-index: 1;
+    left: 0px;
+    transition: 0.5s;
+}
+
+.box2:hover::before {
+    content: '';
+    width: 15%;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.box2:hover img {
+    width: 105%;
+    height: 310px;
+    transition: 1s;
+}
+
+
+/* ----------------------------Box3------------------------- */
+
+.box3 {
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 0px 20px black;
+    float: left;
+    margin-right: 5%;
+}
+
+.box3::before {
+    content: '';
+    width: 15%;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(255, 99, 71, 0.753);
+    bottom: -100%;
+    z-index: 1;
+    top: 0px;
+    left: -58px;
+    transition: 0.8s;
+}
+
+.box3:hover::before {
+    content: '';
+    width: 15%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    transition: 0.8s;
+}
+
+.box3:hover img {
+    width: 105%;
+    height: 310px;
+    transition: 1s;
+}
+
+
+/* ----------------------------Box4------------------------- */
+
+.box4 {
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 0px 20px black;
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.box4::before {
+    content: '';
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    background-color: rgba(255, 99, 71, 0.753);
+    bottom: -15%;
+    z-index: 1;
+    /* top: 0px */
+    left: 0px;
+    transition: 0.8s;
+}
+
+.box4:hover::before {
+    content: '';
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    transition: 0.8s;
+}
+
+.box4:hover img {
+    width: 105%;
+    height: 310px;
+    transition: 1s;
+}
+
+
+/* ----------------------------Box5------------------------- */
+
+.box5 {
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 0px 20px black;
+    float: left;
+    margin-right: 5%;
+}
+
+.box5::before {
+    content: '';
+    width: 15%;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(20, 10, 8, 0.548);
+    bottom: -100%;
+    z-index: 1;
+    top: 0px;
+    left: -58px;
+    transition: 0.8s;
+}
+
+.box5:hover::before {
+    content: '';
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    left: 0%;
+    transition: 0.8s;
+}
+
+.box5::after {
+    content: '';
+    width: 15%;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(20, 10, 8, 0.548);
+    bottom: -100%;
+    z-index: 1;
+    top: 0px;
+    right: -58px;
+    transition: 0.8s;
+}
+
+.box5:hover::after {
+    content: '';
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    transition: 0.8s;
+}
+
+.box5:hover img {
+    width: 105%;
+    height: 310px;
+    transition: 1s;
+}
+
+
+/* ----------------------------Box6------------------------- */
+
+.box6 {
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 0px 20px black;
+    float: left;
+}
+
+.box6::before {
+    content: '';
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(20, 10, 8, 0.548);
+    bottom: -100%;
+    z-index: 1;
+    left: -20%;
+    top: 0px;
+    transition: 0.8s;
+}
+
+.box6:hover::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    transition: 0.8s;
+}
+
+.box6::after {
+    content: '';
+    width: 0%;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(20, 10, 8, 0.486);
+    bottom: -100%;
+    z-index: 1;
+    top: 0px;
+    left: -58px;
+    transition: 0.8s;
+}
+
+.box6:hover::after {
+    content: '';
+    width: 116%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    transition: 0.8s;
+}
+
+.box6:hover img {
+    width: 105%;
+    height: 310px;
+    transition: 1s;
+}
